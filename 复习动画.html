@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid gray;
+            background: red;
+        }
+        /*1.定义动画*/
+        @keyframes run{
+            from{
+
+            }
+            to{
+                transform:translateX(800px);
+            }
+        }
+
+        .animation{
+            animation:run 1s 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation"></div>
+</body>
+</html>
