@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        ul>li[type~='two']{
+            background: red;
+        }
+        ul>li[type^='aa']{
+            background: green;
+        }
+        ul>li[type$='bb']{
+            background: pink;
+        }
+        ul>li[type*='ccc']{
+            background: deeppink;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li type='icon-one two'></li>
+    <li type='aaicon-one'></li>
+    <li type='icon-onebb'></li>
+    <li type='iconccc-one'></li>
+    <li type='icon-one'></li>
+    <li type='icon-one'></li>
+    <li type='icon-one'></li>
+    <li type='icon-one'></li>
+</ul>
+</body>
+</html>
